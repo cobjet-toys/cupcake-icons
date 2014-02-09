@@ -1,0 +1,22 @@
+project_root: (pwd)
+input: (project_root)
+output: (project_root)/(font name)
+config: (pwd)/fontcustom.yml
+debug: false
+quiet: false
+
+no_hash: true
+font_name: "cupcake-icons"
+
+input:
+  vectors: ./src
+  templates: ./templates
+
+output:
+  fonts: ./assets
+  css: ./assets
+  preview: ./preview
+
+templates: [ icons.scss, preview ]
+css_selector: .icn-{{glyph}}
+preprocessor_path: ""
