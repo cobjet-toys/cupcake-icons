@@ -2,7 +2,7 @@ require "cupcake-icons/version"
 
 module CupcakeIcons
   def self.assets_dir
-    File.expand_path('../../src', __FILE__)
+    File.expand_path('../../assets', __FILE__)
   end
 
   module Sprockets
