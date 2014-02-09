@@ -17,6 +17,6 @@ output:
   css: ./assets
   preview: ./preview
 
-templates: [ icons.scss, preview ]
+templates: [ cupcake-icons.scss, preview ]
 css_selector: .icn-{{glyph}}
 preprocessor_path: ""
