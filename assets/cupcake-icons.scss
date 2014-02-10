@@ -1,10 +1,10 @@
 @font-face {
   font-family: "cupcake-icons";
-  src: asset-data-uri("cupcake-icons.eot");
-  src: font-url("cupcake-icons.eot?iefix") format("embedded-opentype"),
-       font-url("cupcake-icons.woff") format("woff"),
-       font-url("cupcake-icons.ttf") format("truetype"),
-       font-url("cupcake-icons.svg#cupcake-icons") format("svg");
+  src: asset-url("cupcake-icons.eot");
+  src: asset-url("cupcake-icons.eot?iefix") format("embedded-opentype"),
+       asset-data-uri("cupcake-icons.woff") format("woff"),
+       asset-url("cupcake-icons.ttf") format("truetype"),
+       asset-url("cupcake-icons.svg#cupcake-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
