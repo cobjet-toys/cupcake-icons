@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jvatic/fontcustom.git
-  revision: c5ffc3014666f643346b86241bb2dd30f9d6cb3e
+  revision: 626411b8f31332f2433870342eb9ac232c340537
   branch: custom
   specs:
     fontcustom (1.3.2)
